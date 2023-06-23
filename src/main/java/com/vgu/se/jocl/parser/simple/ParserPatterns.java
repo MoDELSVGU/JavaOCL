@@ -25,7 +25,7 @@ public class ParserPatterns {
     // Helper patterns
     /**
      * <p>
-     * 1st Capturing Group {@code ('(.*?)')}<br/>
+     * 1st Capturing Group {@code ('(.*?)')}<br>
      * {@code '} matches the * character {@code '} literally (case
      * sensitive)
      * </p>
