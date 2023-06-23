@@ -9,7 +9,7 @@ A representation of OCL expression in Java.
 </dependency>
 ```
  
-This table represents a detailed overview of supported Object Constraint Language (OCL) operators in our implementation `OCL2PSQL`. It consists of several categories, in which contains 2 columns: the operator (on the left) and the syntax example (on the right).
+This table represents a detailed overview of supported Object Constraint Language (OCL) operators. It consists of several categories, in which contains 2 columns: the operator (on the left) and the syntax example (on the right).
 
 ##### Class operations
 |||
