@@ -32,7 +32,7 @@ public class ParserPatterns {
      * <p>
      * 2nd Capturing Group {@code (.*?)} {@code .*?} matches any
      * character (except for line terminators) {@code *?}
-     * <emp>Quantifier</emp>: Matches between zero and unlimited times,
+     * Quantifier: Matches between zero and unlimited times,
      * as few times as possible, expanding as needed (lazy)
      * </p>
      */
@@ -40,14 +40,14 @@ public class ParserPatterns {
 
     /**
      * <p>
-     * 1st Capturing Group (\\(([^()]*?)\\)) <br />
+     * 1st Capturing Group (\\(([^()]*?)\\)) <br>
      * {@code \\(} matches the character {@code (} literally (case
      * sensitive)
      * </p>
      * <p>
-     * 2nd Capturing Group ([^()]*?) <br />
+     * 2nd Capturing Group ([^()]*?) <br>
      * Match a single character not present in the list below
-     * {@code [^()]*?}<br />
+     * {@code [^()]*?}<br>
      * {@code ?} Quantifier — Matches between zero and unlimited times,
      * as few times as possible, expanding as needed (lazy) {@code ()}
      * matches a single character in the list () (case sensitive)

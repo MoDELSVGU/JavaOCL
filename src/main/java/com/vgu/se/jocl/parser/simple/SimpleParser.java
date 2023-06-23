@@ -83,9 +83,9 @@ public class SimpleParser implements Parser {
      * 
      * UML Context file.
      * 
-     * @param ctx
-     * @param oclExpStr
-     * @return OclExp
+     * @param ocl The OCL expression in String format
+     * @param dm The underlying datamodel
+     * @return OclExp The OCL expression in Java object hierarchy
      */
     public Expression parse(String ocl, DataModel dm) {
         houseCleanup();
