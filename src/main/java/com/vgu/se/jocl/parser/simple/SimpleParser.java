@@ -27,9 +27,6 @@ import java.util.Stack;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.vgu.dm2schema.dm.DataModel;
-import org.vgu.dm2schema.dm.DmUtils;
-
 import com.vgu.se.jocl.exception.OclParserException;
 import com.vgu.se.jocl.expressions.AssociationClassCallExp;
 import com.vgu.se.jocl.expressions.BooleanLiteralExp;
@@ -56,6 +53,9 @@ import com.vgu.se.jocl.expressions.sql.functions.SqlFnCurdate;
 import com.vgu.se.jocl.expressions.sql.functions.SqlFnTimestampdiff;
 import com.vgu.se.jocl.parser.interfaces.Parser;
 import com.vgu.se.jocl.types.Type;
+
+import modeling.data.entities.DataModel;
+import modeling.data.utils.DmUtils;
 
 public class SimpleParser implements Parser {
 

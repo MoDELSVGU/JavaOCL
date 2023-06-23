@@ -28,10 +28,11 @@ import java.util.regex.Pattern;
 import org.json.simple.JSONArray;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
-import org.vgu.dm2schema.dm.DataModel;
 
 import com.vgu.se.jocl.expressions.Expression;
 import com.vgu.se.jocl.parser.simple.SimpleParser;
+
+import modeling.data.entities.DataModel;
 
 public class ParserTest {
 
