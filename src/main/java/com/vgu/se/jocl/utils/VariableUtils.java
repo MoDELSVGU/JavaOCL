@@ -39,8 +39,8 @@ public class VariableUtils {
      * expression.
      * </p>
      * 
-     * @param ? the valid OCL sub-expression
-     * @return the set of variables that occurs free in ?
+     * @param src the valid OCL sub-expression
+     * @return the set of variables that occurs free in src
      * @since 1.0
      */
     public static List<Variable> FVars(com.vgu.se.jocl.expressions.Expression src) {
@@ -126,8 +126,7 @@ public class VariableUtils {
      * Engineering</b>. Assuming e is the whole OCL expression.
      * </p>
      * 
-     * @param ePrime  (e') the sub-expression of e
-     * @param visitor the context of OCL expression
+     * @param ePrime (e') the sub-expression of e
      * @return the set of variables which e' depends on
      * @since 1.0
      */
