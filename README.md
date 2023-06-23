@@ -1,4 +1,4 @@
-# jocl
+# JavaOCL
 
 A representation of OCL expression in Java.
  
