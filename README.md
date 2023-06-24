@@ -5,7 +5,7 @@ A representation of OCL expression in Java.
 <dependency>
   <groupId>io.github.modelsvgu</groupId>
   <artifactId>oclj</artifactId>
-  <version>1.0.0</version>
+  <version>[1.0.0,)</version>
 </dependency>
 ```
  
