@@ -49,7 +49,7 @@
 		<dependency>
 			<groupId>io.github.modelsvgu</groupId>
 			<artifactId>datamodelj</artifactId>
-			<version>[1.0.0,)</version>
+			<version>1.0.7-ASC</version>
 		</dependency>
 	</dependencies>
 
