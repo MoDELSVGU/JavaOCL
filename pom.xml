@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.github.modelsvgu</groupId>
 	<artifactId>oclj</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<name>${project.groupId}:${project.artifactId}</name>
 	<description>A representation of OCL expression in Java.</description>
 	<url>https://github.com/MoDELSVGU/JavaOCL</url>
@@ -49,7 +49,7 @@
 		<dependency>
 			<groupId>io.github.modelsvgu</groupId>
 			<artifactId>datamodelj</artifactId>
-			<version>[1.0.0,)</version>
+			<version>1.0.7-ASC</version>
 		</dependency>
 	</dependencies>
 
